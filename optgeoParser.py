@@ -32,8 +32,13 @@ for line in strg1Read:
 			name = "strg004"
 		uptimeRaw = data[0].strip()
 		uptime = data[0].split("up")[1].strip()
-		users = data[1].split("user")[0].strip()
-		load = data[2].split(",")
+
+		uptime += " " + data[1].strip()
+
+		#users = data[1].split("user")[0].strip()
+		users = data[2].split("user")[0].strip()
+		#load = data[2].split(",")
+		load = data[3].split(",")
 		load01 = load[0].split(":")[1].strip()
 		load05 = load[1].strip()
 		load15 = load[2].strip()
