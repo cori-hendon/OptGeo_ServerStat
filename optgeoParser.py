@@ -19,7 +19,10 @@ for line in strg1Ref:
 
 for line in strg1Read:
 	if line != "\n":
-		data=line.split(",  ")
+		data1=line.split("load average: ")
+		#data=line.split(", ")
+		data2=data1[0].split(", ")
+		data3=data1[1].split(", ")
 		group = "Storage"
 		name = infile.split(".")[0].split("/")[6]
 		if name == "newest1":
@@ -30,19 +33,21 @@ for line in strg1Read:
 			name = "strg003"
 		elif name == "newest4":
 			name = "strg004"
-		uptimeRaw = data[0].strip()
-		uptime = data[0].split("up")[1].strip()
+		uptimeRaw = data2[0].strip()
+		uptime = data2[0].split("up")[1].strip()
 
-		uptime += " " + data[1].strip()
+		uptime += " " + data2[1].strip()
 
 		#users = data[1].split("user")[0].strip()
-		users = data[2].split("user")[0].strip()
+		users = data2[2].split("user")[0].strip()
 		#load = data[2].split(",")
-		load = data[3].split(",")
-		load01 = load[0].split(":")[1].strip()
-		load05 = load[1].strip()
-		load15 = load[2].strip()
-		
+		#load = data[3].split(",")
+		#load01 = load[0].split(":")[1].strip()
+		#load05 = load[1].strip()
+		#load15 = load[2].strip()
+		load01 = data3[0].strip()
+		load05 = data3[1].strip()
+		load15 = data3[2].strip()
 
 		# strg1Ref.write(uptime + "\n")
 
