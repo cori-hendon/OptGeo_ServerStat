@@ -13,10 +13,10 @@ filenamevar3=strg003.out.${yr}_${mo}_${da}
 filenamevar4=strg004.out.${yr}_${mo}_${da}
 
 mkdir -p /home/ec2-user/OptGeoData/$pathvar
-mv /home/ec2-user/$filenamevar1* /home/ec2-user/OptGeoData/$pathvar
-mv /home/ec2-user/$filenamevar2* /home/ec2-user/OptGeoData/$pathvar
-mv /home/ec2-user/$filenamevar3* /home/ec2-user/OptGeoData/$pathvar
-mv /home/ec2-user/$filenamevar4* /home/ec2-user/OptGeoData/$pathvar
+mv /home/ec2-user/$filenamevar1* /home/ec2-user/OptGeoData/$pathvar/.
+mv /home/ec2-user/$filenamevar2* /home/ec2-user/OptGeoData/$pathvar/.
+mv /home/ec2-user/$filenamevar3* /home/ec2-user/OptGeoData/$pathvar/.
+mv /home/ec2-user/$filenamevar4* /home/ec2-user/OptGeoData/$pathvar/.
 
 
 
