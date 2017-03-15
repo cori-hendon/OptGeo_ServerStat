@@ -6,6 +6,12 @@
 yr=$(date +%Y)
 mo=$(date +%B)
 da=$(date +%d)
+hr=$(date +%H)
+# adjust day for time zone difference
+if [ $hr = "00" ]	
+then
+	da=$(($da - 1))
+fi
 pathvar=$yr/$mo/$da
 filenamevar1=strg001.out.${yr}_${mo}_${da}
 filenamevar2=strg002.out.${yr}_${mo}_${da}
