@@ -33,13 +33,18 @@ for line in strg1Read:
 			name = "strg003"
 		elif name == "newest4":
 			name = "strg004"
+
 		uptimeRaw = data2[0].strip()
 		uptime = data2[0].split("up")[1].strip()
 
-		uptime += " " + data2[1].strip()
+		if len(data2)==4:	# this has been up more than one day
+			uptime += " " + data2[1].strip()
+			users = data2[2].split("user")[0].strip()
+		else:
+			users = data2[1].split("user")[0].strip()
 
 		#users = data[1].split("user")[0].strip()
-		users = data2[2].split("user")[0].strip()
+		#users = data2[2].split("user")[0].strip()
 		#load = data[2].split(",")
 		#load = data[3].split(",")
 		#load01 = load[0].split(":")[1].strip()
