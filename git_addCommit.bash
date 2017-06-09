@@ -11,6 +11,7 @@ hr=$(date +%H)
 if [ $hr = "00" ]	
 then
 	da=$(($da - 1))
+	hr="23"
 fi
 pathvar=$yr/$mo/$da
 filenamevar1=strg001.out.${yr}_${mo}_${da}
