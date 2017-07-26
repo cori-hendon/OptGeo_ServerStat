@@ -48,10 +48,10 @@ cp /home/ec2-user/OptGeoData/$pathvar/$newfile4 /mnt/ftp/httpd/customers/optimal
 
 
 # parse the newest files
-rm newest_parsed1.data
-rm newest_parsed2.data
-rm newest_parsed3.data
-rm newest_parsed4.data
+rm newest1_parsed.data
+rm newest2_parsed.data
+rm newest3_parsed.data
+rm newest4_parsed.data
 
 python /mnt/ftp/httpd/customers/optimalgeo/optgeoParser.py /mnt/ftp/httpd/customers/optimalgeo/newest1.data /mnt/ftp/httpd/customers/optimalgeo/strg1Ref.txt > /mnt/ftp/httpd/customers/optimalgeo/newest1_parsed.data
 python /mnt/ftp/httpd/customers/optimalgeo/optgeoParser.py /mnt/ftp/httpd/customers/optimalgeo/newest2.data /mnt/ftp/httpd/customers/optimalgeo/strg2Ref.txt > /mnt/ftp/httpd/customers/optimalgeo/newest2_parsed.data
