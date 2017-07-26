@@ -67,6 +67,6 @@ cat /mnt/ftp/httpd/customers/optimalgeo/newest*parsed.data > /mnt/ftp/httpd/cust
 
 # update github directory
 cd /mnt/ftp/httpd/customers/optimalgeo
-git add -A
-git commit -am "automated file upload"
-git push origin master
+git add -A &> /dev/null
+git commit -am "automated file upload" &> /dev/null
+git push origin master &> /dev/null
