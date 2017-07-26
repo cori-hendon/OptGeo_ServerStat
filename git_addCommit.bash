@@ -19,11 +19,20 @@ filenamevar2=strg002.out.${yr}_${mo}_${da}
 filenamevar3=strg003.out.${yr}_${mo}_${da}
 filenamevar4=strg004.out.${yr}_${mo}_${da}
 
+
+reportErr=false
+errStr=''
 mkdir -p /home/ec2-user/OptGeoData/$pathvar
-mv /home/ec2-user/$filenamevar1* /home/ec2-user/OptGeoData/$pathvar/.
-mv /home/ec2-user/$filenamevar2* /home/ec2-user/OptGeoData/$pathvar/.
-mv /home/ec2-user/$filenamevar3* /home/ec2-user/OptGeoData/$pathvar/.
-mv /home/ec2-user/$filenamevar4* /home/ec2-user/OptGeoData/$pathvar/.
+mv /home/ec2-user/$filenamevar1* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar1
+mv /home/ec2-user/$filenamevar2* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar2
+mv /home/ec2-user/$filenamevar3* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar3
+mv /home/ec2-user/$filenamevar4* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar4
+
+if $reportErr ; then
+	echo $(date) >> err.log
+	echo $errStr >> err.log
+	echo '-----------------------------------------------------' >> err.log
+fi
 
 
 
