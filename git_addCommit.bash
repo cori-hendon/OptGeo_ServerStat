@@ -3,16 +3,16 @@
 
 
 # move old stuff to directories for storage
-yr=$(date +%Y)
-mo=$(date +%B)
-da=$(date +%d)
-hr=$(date +%H)
+yr=$(TZ=US/Central date +%Y)
+mo=$(TZ=US/Central date +%B)
+da=$(TZ=US/Central date +%d)
+hr=$(TZ=US/Central date +%H)
 # adjust day for time zone difference
-if [ $hr = "00" ]	
-then
-	da=$(($da - 1))
-	hr="23"
-fi
+#if [ $hr = "00" ]	
+#then
+#	da=$(($da - 1))
+#	hr="23"
+#fi
 pathvar=$yr/$mo/$da
 filenamevar1=strg001.out.${yr}_${mo}_${da}
 filenamevar2=strg002.out.${yr}_${mo}_${da}
