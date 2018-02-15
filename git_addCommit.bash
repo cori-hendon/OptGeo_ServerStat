@@ -23,10 +23,31 @@ filenamevar4=strg004.out.${yr}_${mo}_${da}
 reportErr=false
 errStr=''
 mkdir -p /home/ec2-user/OptGeoData/$pathvar
-mv /home/ec2-user/$filenamevar1* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar1
-mv /home/ec2-user/$filenamevar2* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar2
-mv /home/ec2-user/$filenamevar3* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar3
-mv /home/ec2-user/$filenamevar4* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar4
+
+if [ ! -f /home/ec2-user/$filenamevar1* ]; then
+	reportErr=true
+	errStr+=" " +$filenamevar1
+fi
+
+if [ ! -f /home/ec2-user/$filenamevar2* ]; then
+        reportErr=true
+        errStr+=" " +$filenamevar2
+fi
+
+if [ ! -f /home/ec2-user/$filenamevar3* ]; then
+        reportErr=true
+        errStr+=" " +$filenamevar3
+fi
+
+if [ ! -f /home/ec2-user/$filenamevar4* ]; then
+        reportErr=true
+        errStr+=" " +$filenamevar4
+fi
+
+#mv /home/ec2-user/$filenamevar1* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar1
+#mv /home/ec2-user/$filenamevar2* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar2
+#mv /home/ec2-user/$filenamevar3* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar3
+#mv /home/ec2-user/$filenamevar4* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar4
 
 if $reportErr ; then
 	echo $(date) >> err.log
