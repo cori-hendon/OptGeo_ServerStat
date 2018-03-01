@@ -46,13 +46,14 @@ if [ ! -f "/home/ec2-user/$filenamevar4*" ]; then
         errStr+=" "$filenamevar4
 fi
 
-#mv /home/ec2-user/$filenamevar1* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar1
-#mv /home/ec2-user/$filenamevar2* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar2
-#mv /home/ec2-user/$filenamevar3* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar3
-#mv /home/ec2-user/$filenamevar4* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar4
+mv /home/ec2-user/$filenamevar1* /home/ec2-user/OptGeoData/$pathvar/.
+mv /home/ec2-user/$filenamevar2* /home/ec2-user/OptGeoData/$pathvar/.
+mv /home/ec2-user/$filenamevar3* /home/ec2-user/OptGeoData/$pathvar/.
+mv /home/ec2-user/$filenamevar4* /home/ec2-user/OptGeoData/$pathvar/.
 
 if $reportErr ; then
 	echo $(date) >> /mnt/ftp/httpd/customers/optimalgeo/err.log
+	echo "Missing files:"
 	echo $errStr >> /mnt/ftp/httpd/customers/optimalgeo/err.log
 	echo '-----------------------------------------------------' >> /mnt/ftp/httpd/customers/optimalgeo/err.log
 fi
