@@ -1,3 +1,6 @@
 mv: cannot stat ‘/home/ec2-user/strg001.out.2018_March_01*’: No such file or directory
 mv: cannot stat ‘/home/ec2-user/strg002.out.2018_March_01*’: No such file or directory
 Missing files:
+mv: cannot stat ‘/home/ec2-user/strg003.out.2018_March_01*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg004.out.2018_March_01*’: No such file or directory
+Missing files:
