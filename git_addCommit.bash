@@ -26,22 +26,22 @@ reportErr=false
 errStr=''
 mkdir -p /home/ec2-user/OptGeoData/$pathvar
 
-if [ ! -f /home/ec2-user/$filenamevar1* ]; then
+if [ ! -f "/home/ec2-user/$filenamevar1*" ]; then
 	reportErr=true
 	errStr+=" "$filenamevar1
 fi
 
-if [ ! -f /home/ec2-user/$filenamevar2* ]; then
+if [ ! -f "/home/ec2-user/$filenamevar2*" ]; then
         reportErr=true
         errStr+=" "$filenamevar2
 fi
 
-if [ ! -f /home/ec2-user/$filenamevar3* ]; then
+if [ ! -f "/home/ec2-user/$filenamevar3*" ]; then
         reportErr=true
         errStr+=" "$filenamevar3
 fi
 
-if [ ! -f /home/ec2-user/$filenamevar4* ]; then
+if [ ! -f "/home/ec2-user/$filenamevar4*" ]; then
         reportErr=true
         errStr+=" "$filenamevar4
 fi
