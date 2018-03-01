@@ -19,6 +19,8 @@ filenamevar2=strg002.out.${yr}_${mo}_${da}
 filenamevar3=strg003.out.${yr}_${mo}_${da}
 filenamevar4=strg004.out.${yr}_${mo}_${da}
 
+echo $filenamevar1 >> /mnt/ftp/httpd/customers/optimalgeo/debug.log
+
 
 reportErr=false
 errStr=''
