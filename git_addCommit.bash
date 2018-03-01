@@ -19,8 +19,6 @@ filenamevar2=strg002.out.${yr}_${mo}_${da}
 filenamevar3=strg003.out.${yr}_${mo}_${da}
 filenamevar4=strg004.out.${yr}_${mo}_${da}
 
-echo $filenamevar1 >> /mnt/ftp/httpd/customers/optimalgeo/debug.log
-
 
 reportErr=false
 errStr=''
@@ -53,7 +51,7 @@ mv /home/ec2-user/$filenamevar4* /home/ec2-user/OptGeoData/$pathvar/.
 
 if $reportErr ; then
 	echo $(date) >> /mnt/ftp/httpd/customers/optimalgeo/err.log
-	echo "Missing files:"
+	echo "Missing files:" >> /mnt/ftp/httpd/customers/optimalgeo/err.log
 	echo $errStr >> /mnt/ftp/httpd/customers/optimalgeo/err.log
 	echo '-----------------------------------------------------' >> /mnt/ftp/httpd/customers/optimalgeo/err.log
 fi
