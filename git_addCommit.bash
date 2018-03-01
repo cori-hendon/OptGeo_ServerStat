@@ -1,6 +1,8 @@
 #!/bin/bash
 # this should run once every 10 mins to organize files uploaded to ftp and update the git repo
 
+# echo to all.log a date stamp
+echo $(date) >> /mnt/ftp/httpd/customers/optimalgeo/all.log
 
 # move old stuff to directories for storage
 yr=$(TZ=US/Central date +%Y)
