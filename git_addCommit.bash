@@ -50,9 +50,9 @@ fi
 #mv /home/ec2-user/$filenamevar4* /home/ec2-user/OptGeoData/$pathvar/. || reportErr=true; errStr+=$filenamevar4
 
 if $reportErr ; then
-	echo $(date) >> err.log
-	echo $errStr >> err.log
-	echo '-----------------------------------------------------' >> err.log
+	echo $(date) >> /mnt/ftp/httpd/customers/optimalgeo/err.log
+	echo $errStr >> /mnt/ftp/httpd/customers/optimalgeo/err.log
+	echo '-----------------------------------------------------' >> /mnt/ftp/httpd/customers/optimalgeo/err.log
 fi
 
 
