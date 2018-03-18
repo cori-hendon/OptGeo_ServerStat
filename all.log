@@ -7452,3 +7452,6 @@ mv: cannot stat ‘/home/ec2-user/strg004.out.2018_March_18*’: No such file or
 Sun Mar 18 10:31:01 EDT 2018
 mv: cannot stat ‘/home/ec2-user/strg002.out.2018_March_18*’: No such file or directory
 mv: cannot stat ‘/home/ec2-user/strg004.out.2018_March_18*’: No such file or directory
+Sun Mar 18 10:41:01 EDT 2018
+mv: cannot stat ‘/home/ec2-user/strg001.out.2018_March_18*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg003.out.2018_March_18*’: No such file or directory
