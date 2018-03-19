@@ -7734,3 +7734,6 @@ IOError: [Errno 2] No such file or directory: '/mnt/ftp/httpd/customers/optimalg
 Mon Mar 19 01:21:01 EDT 2018
 mv: cannot stat ‘/home/ec2-user/strg003.out.2018_March_19*’: No such file or directory
 mv: cannot stat ‘/home/ec2-user/strg004.out.2018_March_19*’: No such file or directory
+Mon Mar 19 01:31:01 EDT 2018
+mv: cannot stat ‘/home/ec2-user/strg001.out.2018_March_19*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg002.out.2018_March_19*’: No such file or directory
