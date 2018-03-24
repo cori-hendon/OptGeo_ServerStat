@@ -9959,3 +9959,6 @@ Traceback (most recent call last):
   File "/mnt/ftp/httpd/customers/optimalgeo/optgeoParser.py", line 12, in <module>
     strg1Read = open(infile,"r")
 IOError: [Errno 2] No such file or directory: '/mnt/ftp/httpd/customers/optimalgeo/newest3.data'
+Sat Mar 24 01:11:01 EDT 2018
+mv: cannot stat ‘/home/ec2-user/strg001.out.2018_March_24*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg004.out.2018_March_24*’: No such file or directory
