@@ -12241,3 +12241,16 @@ mv: cannot stat ‘/home/ec2-user/strg004.out.2018_March_28*’: No such file or
 Thu Mar 29 00:51:01 EDT 2018
 mv: cannot stat ‘/home/ec2-user/strg001.out.2018_March_28*’: No such file or directory
 mv: cannot stat ‘/home/ec2-user/strg002.out.2018_March_28*’: No such file or directory
+Thu Mar 29 01:01:01 EDT 2018
+mv: cannot stat ‘/home/ec2-user/strg001.out.2018_March_29*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg003.out.2018_March_29*’: No such file or directory
+cp: omitting directory ‘/home/ec2-user/OptGeoData/2018/March/29/’
+cp: omitting directory ‘/home/ec2-user/OptGeoData/2018/March/29/’
+Traceback (most recent call last):
+  File "/mnt/ftp/httpd/customers/optimalgeo/optgeoParser.py", line 12, in <module>
+    strg1Read = open(infile,"r")
+IOError: [Errno 2] No such file or directory: '/mnt/ftp/httpd/customers/optimalgeo/newest1.data'
+Traceback (most recent call last):
+  File "/mnt/ftp/httpd/customers/optimalgeo/optgeoParser.py", line 12, in <module>
+    strg1Read = open(infile,"r")
+IOError: [Errno 2] No such file or directory: '/mnt/ftp/httpd/customers/optimalgeo/newest3.data'
