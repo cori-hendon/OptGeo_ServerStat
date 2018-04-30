@@ -17526,3 +17526,30 @@ Mon Apr 30 12:11:01 EDT 2018
 Mon Apr 30 12:21:01 EDT 2018
 Mon Apr 30 12:31:01 EDT 2018
 Mon Apr 30 12:41:01 EDT 2018
+Mon Apr 30 12:51:01 EDT 2018
+/mnt/ftp/httpd/customers/optimalgeo/git_addCommit.bash: line 93: /mnt/ftp/httpd/customers/optimalgeo/newest1_parsed.data: No space left on device
+/mnt/ftp/httpd/customers/optimalgeo/git_addCommit.bash: line 94: /mnt/ftp/httpd/customers/optimalgeo/newest2_parsed.data: No space left on device
+/mnt/ftp/httpd/customers/optimalgeo/git_addCommit.bash: line 95: /mnt/ftp/httpd/customers/optimalgeo/newest3_parsed.data: No space left on device
+/mnt/ftp/httpd/customers/optimalgeo/git_addCommit.bash: line 96: /mnt/ftp/httpd/customers/optimalgeo/newest4_parsed.data: No space left on device
+cat: /mnt/ftp/httpd/customers/optimalgeo/newest*parsed.data: No such file or directory
+Mon Apr 30 13:01:01 EDT 2018
+rm: cannot remove ‘/mnt/ftp/httpd/customers/optimalgeo/newest1_parsed.data’: No such file or directory
+rm: cannot remove ‘/mnt/ftp/httpd/customers/optimalgeo/newest2_parsed.data’: No such file or directory
+rm: cannot remove ‘/mnt/ftp/httpd/customers/optimalgeo/newest3_parsed.data’: No such file or directory
+rm: cannot remove ‘/mnt/ftp/httpd/customers/optimalgeo/newest4_parsed.data’: No such file or directory
+/mnt/ftp/httpd/customers/optimalgeo/git_addCommit.bash: line 93: /mnt/ftp/httpd/customers/optimalgeo/newest1_parsed.data: No space left on device
+/mnt/ftp/httpd/customers/optimalgeo/git_addCommit.bash: line 94: /mnt/ftp/httpd/customers/optimalgeo/newest2_parsed.data: No space left on device
+/mnt/ftp/httpd/customers/optimalgeo/git_addCommit.bash: line 95: /mnt/ftp/httpd/customers/optimalgeo/newest3_parsed.data: No space left on device
+/mnt/ftp/httpd/customers/optimalgeo/git_addCommit.bash: line 96: /mnt/ftp/httpd/customers/optimalgeo/newest4_parsed.data: No space left on device
+cat: /mnt/ftp/httpd/customers/optimalgeo/newest*parsed.data: No such file or directory
+Mon Apr 30 13:11:01 EDT 2018
+rm: cannot remove ‘/mnt/ftp/httpd/customers/optimalgeo/newest1_parsed.data’: No such file or directory
+rm: cannot remove ‘/mnt/ftp/httpd/customers/optimalgeo/newest2_parsed.data’: No such file or directory
+rm: cannot remove ‘/mnt/ftp/httpd/customers/optimalgeo/newest3_parsed.data’: No such file or directory
+rm: cannot remove ‘/mnt/ftp/httpd/customers/optimalgeo/newest4_parsed.data’: No such file or directory
+/mnt/ftp/httpd/customers/optimalgeo/git_addCommit.bash: line 93: /mnt/ftp/httpd/customers/optimalgeo/newest1_parsed.data: No space left on device
+/mnt/ftp/httpd/customers/optimalgeo/git_addCommit.bash: line Mon Apr 30 16:41:01 EDT 2018
+rm: cannot remove ‘/mnt/ftp/httpd/customers/optimalgeo/newest1_parsed.data’: No such file or directory
+rm: cannot remove ‘/mnt/ftp/httpd/customers/optimalgeo/newest2_parsed.data’: No such file or directory
+rm: cannot remove ‘/mnt/ftp/httpd/customers/optimalgeo/newest3_parsed.data’: No such file or directory
+rm: cannot remove ‘/mnt/ftp/httpd/customers/optimalgeo/newest4_parsed.data’: No such file or directory
