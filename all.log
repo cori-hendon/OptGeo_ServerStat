@@ -22597,3 +22597,6 @@ Mon Jun 4 16:11:01 EDT 2018
 Mon Jun 4 16:21:01 EDT 2018
 Mon Jun 4 16:31:01 EDT 2018
 Mon Jun 4 16:41:01 EDT 2018
+Mon Jun 4 16:51:01 EDT 2018
+mv: cannot stat ‘/home/ec2-user/strg001.out.2018_June_04*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg002.out.2018_June_04*’: No such file or directory
