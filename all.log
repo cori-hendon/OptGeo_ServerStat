@@ -30749,3 +30749,5 @@ Tue Jul 31 01:21:01 EDT 2018
 Tue Jul 31 01:31:01 EDT 2018
 Tue Jul 31 01:41:01 EDT 2018
 Tue Jul 31 01:51:01 EDT 2018
+Tue Jul 31 02:01:01 EDT 2018
+mv: cannot stat ‘/home/ec2-user/strg003.out.2018_July_31*’: No such file or directory
