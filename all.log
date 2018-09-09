@@ -36495,3 +36495,5 @@ Sat Sep 8 19:41:01 EDT 2018
 Sat Sep 8 19:51:01 EDT 2018
 Sat Sep 8 20:01:01 EDT 2018
 Sat Sep 8 20:11:01 EDT 2018
+Sat Sep 8 20:21:01 EDT 2018
+mv: cannot stat ‘/home/ec2-user/strg003.out.2018_September_08*’: No such file or directory
