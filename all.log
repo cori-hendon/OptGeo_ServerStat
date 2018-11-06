@@ -44871,3 +44871,7 @@ Mon Nov 5 19:51:01 EST 2018
 Mon Nov 5 20:01:01 EST 2018
 Mon Nov 5 20:11:01 EST 2018
 Mon Nov 5 20:21:01 EST 2018
+Mon Nov 5 20:31:01 EST 2018
+mv: cannot stat ‘/home/ec2-user/strg002.out.2018_November_05*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg003.out.2018_November_05*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg004.out.2018_November_05*’: No such file or directory
