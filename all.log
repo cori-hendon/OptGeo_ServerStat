@@ -44900,3 +44900,8 @@ mv: cannot stat ‘/home/ec2-user/strg001.out.2018_November_05*’: No such file
 mv: cannot stat ‘/home/ec2-user/strg002.out.2018_November_05*’: No such file or directory
 mv: cannot stat ‘/home/ec2-user/strg003.out.2018_November_05*’: No such file or directory
 mv: cannot stat ‘/home/ec2-user/strg004.out.2018_November_05*’: No such file or directory
+Mon Nov 5 21:31:01 EST 2018
+mv: cannot stat ‘/home/ec2-user/strg001.out.2018_November_05*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg002.out.2018_November_05*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg003.out.2018_November_05*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg004.out.2018_November_05*’: No such file or directory
