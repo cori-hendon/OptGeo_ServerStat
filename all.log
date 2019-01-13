@@ -55731,3 +55731,5 @@ Sun Jan 13 01:21:01 EST 2019
 Sun Jan 13 01:31:01 EST 2019
 Sun Jan 13 01:41:01 EST 2019
 Sun Jan 13 01:51:01 EST 2019
+Sun Jan 13 02:01:01 EST 2019
+mv: cannot stat ‘/home/ec2-user/strg003.out.2019_January_13*’: No such file or directory
