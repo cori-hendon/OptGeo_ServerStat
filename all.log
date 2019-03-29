@@ -66663,3 +66663,6 @@ Fri Mar 29 14:51:01 EDT 2019
 mv: cannot stat ‘/home/ec2-user/strg001.out.2019_March_29*’: No such file or directory
 Fri Mar 29 15:01:01 EDT 2019
 Fri Mar 29 15:11:02 EDT 2019
+Fri Mar 29 15:21:01 EDT 2019
+mv: cannot stat ‘/home/ec2-user/strg001.out.2019_March_29*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg004.out.2019_March_29*’: No such file or directory
