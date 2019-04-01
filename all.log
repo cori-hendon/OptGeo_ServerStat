@@ -67019,3 +67019,5 @@ Mon Apr 1 01:21:01 EDT 2019
 Mon Apr 1 01:31:01 EDT 2019
 Mon Apr 1 01:41:01 EDT 2019
 Mon Apr 1 01:51:01 EDT 2019
+Mon Apr 1 02:01:01 EDT 2019
+mv: cannot stat ‘/home/ec2-user/strg003.out.2019_April_01*’: No such file or directory
