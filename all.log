@@ -79224,3 +79224,5 @@ Mon Jun 24 09:51:01 EDT 2019
 Mon Jun 24 10:01:01 EDT 2019
 Mon Jun 24 10:11:01 EDT 2019
 Mon Jun 24 10:21:01 EDT 2019
+Mon Jun 24 10:31:01 EDT 2019
+mv: cannot stat ‘/home/ec2-user/strg004.out.2019_June_24*’: No such file or directory
