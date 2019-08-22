@@ -87932,3 +87932,5 @@ Thu Aug 22 12:11:01 EDT 2019
 Thu Aug 22 12:21:01 EDT 2019
 mv: cannot stat ‘/home/ec2-user/strg002.out.2019_August_22*’: No such file or directory
 Thu Aug 22 12:31:01 EDT 2019
+Thu Aug 22 12:41:01 EDT 2019
+mv: cannot stat ‘/home/ec2-user/strg003.out.2019_August_22*’: No such file or directory
