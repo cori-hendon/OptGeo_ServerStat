@@ -98703,3 +98703,5 @@ Tue Nov 5 01:41:01 EST 2019
 Tue Nov 5 01:51:01 EST 2019
 Tue Nov 5 02:01:01 EST 2019
 mv: cannot stat ‘/home/ec2-user/strg003.out.2019_November_05*’: No such file or directory
+Tue Nov 5 02:11:01 EST 2019
+mv: cannot stat ‘/home/ec2-user/strg001.out.2019_November_05*’: No such file or directory
