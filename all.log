@@ -99030,3 +99030,8 @@ Thu Nov 7 07:11:01 EST 2019
 Thu Nov 7 07:21:01 EST 2019
 Thu Nov 7 07:31:01 EST 2019
 Thu Nov 7 07:41:01 EST 2019
+Thu Nov 7 07:51:02 EST 2019
+mv: cannot stat ‘/home/ec2-user/strg001.out.2019_November_07*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg002.out.2019_November_07*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg003.out.2019_November_07*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg004.out.2019_November_07*’: No such file or directory
