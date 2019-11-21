@@ -101020,3 +101020,5 @@ Thu Nov 21 01:41:01 EST 2019
 Thu Nov 21 01:51:01 EST 2019
 Thu Nov 21 02:01:01 EST 2019
 Thu Nov 21 02:11:01 EST 2019
+Thu Nov 21 02:21:02 EST 2019
+mv: cannot stat ‘/home/ec2-user/strg001.out.2019_November_21*’: No such file or directory
