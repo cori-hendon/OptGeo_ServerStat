@@ -107934,3 +107934,6 @@ Tue Jan 7 23:41:01 EST 2020
 Tue Jan 7 23:51:01 EST 2020
 Wed Jan 8 00:01:01 EST 2020
 Wed Jan 8 00:11:01 EST 2020
+Wed Jan 8 00:21:01 EST 2020
+mv: cannot stat ‘/home/ec2-user/strg001.out.2020_January_07*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg004.out.2020_January_07*’: No such file or directory
