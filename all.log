@@ -108431,3 +108431,6 @@ Sat Jan 11 09:41:01 EST 2020
 mv: cannot stat ‘/home/ec2-user/strg004.out.2020_January_11*’: No such file or directory
 Sat Jan 11 09:51:01 EST 2020
 mv: cannot stat ‘/home/ec2-user/strg004.out.2020_January_11*’: No such file or directory
+Sat Jan 11 10:01:01 EST 2020
+mv: cannot stat ‘/home/ec2-user/strg003.out.2020_January_11*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg004.out.2020_January_11*’: No such file or directory
