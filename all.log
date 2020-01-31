@@ -113577,3 +113577,28 @@ Traceback (most recent call last):
   File "/mnt/ftp/httpd/customers/optimalgeo/optgeoParser.py", line 12, in <module>
     strg1Read = open(infile,"r")
 IOError: [Errno 2] No such file or directory: '/mnt/ftp/httpd/customers/optimalgeo/newest4.data'
+Fri Jan 31 14:41:01 EST 2020
+mv: cannot stat ‘/home/ec2-user/strg001.out.2020_January_31*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg002.out.2020_January_31*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg003.out.2020_January_31*’: No such file or directory
+mv: cannot stat ‘/home/ec2-user/strg004.out.2020_January_31*’: No such file or directory
+cp: omitting directory ‘/home/ec2-user/OptGeoData/2020/January/31/’
+cp: omitting directory ‘/home/ec2-user/OptGeoData/2020/January/31/’
+cp: omitting directory ‘/home/ec2-user/OptGeoData/2020/January/31/’
+cp: omitting directory ‘/home/ec2-user/OptGeoData/2020/January/31/’
+Traceback (most recent call last):
+  File "/mnt/ftp/httpd/customers/optimalgeo/optgeoParser.py", line 12, in <module>
+    strg1Read = open(infile,"r")
+IOError: [Errno 2] No such file or directory: '/mnt/ftp/httpd/customers/optimalgeo/newest1.data'
+Traceback (most recent call last):
+  File "/mnt/ftp/httpd/customers/optimalgeo/optgeoParser.py", line 12, in <module>
+    strg1Read = open(infile,"r")
+IOError: [Errno 2] No such file or directory: '/mnt/ftp/httpd/customers/optimalgeo/newest2.data'
+Traceback (most recent call last):
+  File "/mnt/ftp/httpd/customers/optimalgeo/optgeoParser.py", line 12, in <module>
+    strg1Read = open(infile,"r")
+IOError: [Errno 2] No such file or directory: '/mnt/ftp/httpd/customers/optimalgeo/newest3.data'
+Traceback (most recent call last):
+  File "/mnt/ftp/httpd/customers/optimalgeo/optgeoParser.py", line 12, in <module>
+    strg1Read = open(infile,"r")
+IOError: [Errno 2] No such file or directory: '/mnt/ftp/httpd/customers/optimalgeo/newest4.data'
